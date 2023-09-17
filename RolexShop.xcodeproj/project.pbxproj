@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E717F2852AB132CF006EA455 /* ProductHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F2842AB132CF006EA455 /* ProductHeaderView.swift */; };
+		E717F2882AB133F5006EA455 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F2872AB133F5006EA455 /* Product.swift */; };
+		E717F28A2AB13417006EA455 /* ProductBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F2892AB13417006EA455 /* ProductBodyView.swift */; };
+		E717F28C2AB1345B006EA455 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F28B2AB1345B006EA455 /* DetailView.swift */; };
+		E717F28E2AB1348A006EA455 /* ProductFooterTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F28D2AB1348A006EA455 /* ProductFooterTitleView.swift */; };
+		E717F2902AB134B7006EA455 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F28F2AB134B7006EA455 /* FavoritesView.swift */; };
+		E717F2982AB1C9E7006EA455 /* SeeAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E717F2972AB1C9E7006EA455 /* SeeAllView.swift */; };
+		E722C03D2AB379BB00C65111 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C03C2AB379BB00C65111 /* PaymentView.swift */; };
+		E722C0402AB3D63900C65111 /* PaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C03F2AB3D63900C65111 /* PaymentMethodView.swift */; };
+		E722C0422AB47C4700C65111 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0412AB47C4700C65111 /* Video.swift */; };
+		E722C0452AB47C8200C65111 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0442AB47C8200C65111 /* VideoPlayerView.swift */; };
+		E722C0482AB4850000C65111 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0472AB4850000C65111 /* VideoPlayer.swift */; };
+		E722C04B2AB485BD00C65111 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C04A2AB485BD00C65111 /* Bundle.swift */; };
+		E722C04E2AB4885B00C65111 /* PaymentCard1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C04D2AB4885B00C65111 /* PaymentCard1View.swift */; };
+		E722C0502AB488A200C65111 /* PaymentCard2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C04F2AB488A200C65111 /* PaymentCard2View.swift */; };
+		E722C0522AB488CB00C65111 /* PaymentCard3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0512AB488CB00C65111 /* PaymentCard3View.swift */; };
+		E722C0552AB4894800C65111 /* BonitätView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0542AB4894800C65111 /* BonitätView.swift */; };
+		E722C0572AB4897500C65111 /* BonitätsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0562AB4897500C65111 /* BonitätsInfoView.swift */; };
+		E722C05A2AB67A4000C65111 /* ServerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0592AB67A4000C65111 /* ServerView.swift */; };
+		E722C05D2AB72D6A00C65111 /* ProductFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C05C2AB72D6A00C65111 /* ProductFooterView.swift */; };
+		E722C0602AB72EA800C65111 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C05F2AB72EA800C65111 /* PaymentButton.swift */; };
+		E722C0622AB72ED400C65111 /* TrashButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0612AB72ED400C65111 /* TrashButton.swift */; };
+		E722C0642AB72FA400C65111 /* PaymentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0632AB72FA400C65111 /* PaymentProvider.swift */; };
+		E722C0672AB72FEB00C65111 /* PaymentCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0662AB72FEB00C65111 /* PaymentCardViewModel.swift */; };
+		E722C0692AB7302D00C65111 /* PaymentCardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0682AB7302D00C65111 /* PaymentCardDetailView.swift */; };
+		E722C06C2AB733DC00C65111 /* PaymentBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C06B2AB733DC00C65111 /* PaymentBodyView.swift */; };
+		E722C06E2AB7341800C65111 /* PaymentBodyDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C06D2AB7341800C65111 /* PaymentBodyDetailsView.swift */; };
+		E722C0702AB7344A00C65111 /* PaymentBodyDetails2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C06F2AB7344A00C65111 /* PaymentBodyDetails2View.swift */; };
+		E722C0722AB7348C00C65111 /* CheckboxWithText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0712AB7348C00C65111 /* CheckboxWithText.swift */; };
+		E722C0752AB73A1700C65111 /* DetailBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0742AB73A1700C65111 /* DetailBodyView.swift */; };
+		E722C0772AB73A6B00C65111 /* DetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0762AB73A6B00C65111 /* DetailHeaderView.swift */; };
+		E722C0792AB73A9600C65111 /* DetailFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0782AB73A9600C65111 /* DetailFooterView.swift */; };
+		E722C07B2AB73BE200C65111 /* CareerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C07A2AB73BE200C65111 /* CareerView.swift */; };
+		E722C07D2AB73C1C00C65111 /* WhyWorkWithUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C07C2AB73C1C00C65111 /* WhyWorkWithUsView.swift */; };
+		E722C07F2AB73C5000C65111 /* ImprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C07E2AB73C5000C65111 /* ImprintView.swift */; };
+		E722C0812AB73C7600C65111 /* LegalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0802AB73C7600C65111 /* LegalInfoView.swift */; };
+		E722C0832AB73CA100C65111 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0822AB73CA100C65111 /* ContactView.swift */; };
+		E722C0852AB73CD400C65111 /* JobOpportunitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0842AB73CD400C65111 /* JobOpportunitiesView.swift */; };
+		E722C0872AB73CF800C65111 /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0862AB73CF800C65111 /* ContactFormView.swift */; };
+		E722C0892AB73D2000C65111 /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0882AB73D2000C65111 /* ContactInfoView.swift */; };
+		E722C08B2AB73D3D00C65111 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C08A2AB73D3D00C65111 /* PrivacyPolicyView.swift */; };
+		E722C08F2AB73E1E00C65111 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C08E2AB73E1E00C65111 /* VideoModel.swift */; };
+		E722C0922AB744CB00C65111 /* VideoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0912AB744CB00C65111 /* VideoListItem.swift */; };
+		E722C0952AB7450300C65111 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E722C0942AB7450300C65111 /* VideoListView.swift */; };
+		E77597AD2AAFBBE10006EFC8 /* RolexShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597AC2AAFBBE10006EFC8 /* RolexShopApp.swift */; };
+		E77597AF2AAFBBE10006EFC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597AE2AAFBBE10006EFC8 /* ContentView.swift */; };
+		E77597B12AAFBBE20006EFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77597B02AAFBBE20006EFC8 /* Assets.xcassets */; };
+		E77597B42AAFBBE20006EFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77597B32AAFBBE20006EFC8 /* Preview Assets.xcassets */; };
+		E77597BE2AAFBBE20006EFC8 /* RolexShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597BD2AAFBBE20006EFC8 /* RolexShopTests.swift */; };
+		E77597C82AAFBBE20006EFC8 /* RolexShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597C72AAFBBE20006EFC8 /* RolexShopUITests.swift */; };
+		E77597CA2AAFBBE20006EFC8 /* RolexShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597C92AAFBBE20006EFC8 /* RolexShopUITestsLaunchTests.swift */; };
+		E77597D82AAFBC140006EFC8 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597D72AAFBC140006EFC8 /* StartView.swift */; };
+		E77597DB2AAFC2A10006EFC8 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597DA2AAFC2A10006EFC8 /* LottieView.swift */; };
+		E77597DE2AAFC3540006EFC8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E77597DD2AAFC3540006EFC8 /* Lottie */; };
+		E77597E02AAFC3960006EFC8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597DF2AAFC3960006EFC8 /* SplashView.swift */; };
+		E77597E82AAFCA300006EFC8 /* animation_lmfg64c5.json in Resources */ = {isa = PBXBuildFile; fileRef = E77597E72AAFCA300006EFC8 /* animation_lmfg64c5.json */; };
+		E77597EA2AAFCC2D0006EFC8 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77597E92AAFCC2D0006EFC8 /* ProductView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E77597BA2AAFBBE20006EFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77597A12AAFBBE10006EFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77597A82AAFBBE10006EFC8;
+			remoteInfo = RolexShop;
+		};
+		E77597C42AAFBBE20006EFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E77597A12AAFBBE10006EFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E77597A82AAFBBE10006EFC8;
+			remoteInfo = RolexShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E717F2842AB132CF006EA455 /* ProductHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHeaderView.swift; sourceTree = "<group>"; };
+		E717F2872AB133F5006EA455 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		E717F2892AB13417006EA455 /* ProductBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBodyView.swift; sourceTree = "<group>"; };
+		E717F28B2AB1345B006EA455 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E717F28D2AB1348A006EA455 /* ProductFooterTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFooterTitleView.swift; sourceTree = "<group>"; };
+		E717F28F2AB134B7006EA455 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		E717F2972AB1C9E7006EA455 /* SeeAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllView.swift; sourceTree = "<group>"; };
+		E722C03C2AB379BB00C65111 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		E722C03F2AB3D63900C65111 /* PaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodView.swift; sourceTree = "<group>"; };
+		E722C0412AB47C4700C65111 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E722C0442AB47C8200C65111 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		E722C0472AB4850000C65111 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		E722C04A2AB485BD00C65111 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E722C04D2AB4885B00C65111 /* PaymentCard1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCard1View.swift; sourceTree = "<group>"; };
+		E722C04F2AB488A200C65111 /* PaymentCard2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCard2View.swift; sourceTree = "<group>"; };
+		E722C0512AB488CB00C65111 /* PaymentCard3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCard3View.swift; sourceTree = "<group>"; };
+		E722C0542AB4894800C65111 /* BonitätView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BonitätView.swift"; sourceTree = "<group>"; };
+		E722C0562AB4897500C65111 /* BonitätsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BonitätsInfoView.swift"; sourceTree = "<group>"; };
+		E722C0592AB67A4000C65111 /* ServerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerView.swift; sourceTree = "<group>"; };
+		E722C05C2AB72D6A00C65111 /* ProductFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFooterView.swift; sourceTree = "<group>"; };
+		E722C05F2AB72EA800C65111 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		E722C0612AB72ED400C65111 /* TrashButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrashButton.swift; sourceTree = "<group>"; };
+		E722C0632AB72FA400C65111 /* PaymentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProvider.swift; sourceTree = "<group>"; };
+		E722C0662AB72FEB00C65111 /* PaymentCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCardViewModel.swift; sourceTree = "<group>"; };
+		E722C0682AB7302D00C65111 /* PaymentCardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCardDetailView.swift; sourceTree = "<group>"; };
+		E722C06B2AB733DC00C65111 /* PaymentBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBodyView.swift; sourceTree = "<group>"; };
+		E722C06D2AB7341800C65111 /* PaymentBodyDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBodyDetailsView.swift; sourceTree = "<group>"; };
+		E722C06F2AB7344A00C65111 /* PaymentBodyDetails2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentBodyDetails2View.swift; sourceTree = "<group>"; };
+		E722C0712AB7348C00C65111 /* CheckboxWithText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxWithText.swift; sourceTree = "<group>"; };
+		E722C0742AB73A1700C65111 /* DetailBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBodyView.swift; sourceTree = "<group>"; };
+		E722C0762AB73A6B00C65111 /* DetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHeaderView.swift; sourceTree = "<group>"; };
+		E722C0782AB73A9600C65111 /* DetailFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFooterView.swift; sourceTree = "<group>"; };
+		E722C07A2AB73BE200C65111 /* CareerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerView.swift; sourceTree = "<group>"; };
+		E722C07C2AB73C1C00C65111 /* WhyWorkWithUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyWorkWithUsView.swift; sourceTree = "<group>"; };
+		E722C07E2AB73C5000C65111 /* ImprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprintView.swift; sourceTree = "<group>"; };
+		E722C0802AB73C7600C65111 /* LegalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalInfoView.swift; sourceTree = "<group>"; };
+		E722C0822AB73CA100C65111 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		E722C0842AB73CD400C65111 /* JobOpportunitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobOpportunitiesView.swift; sourceTree = "<group>"; };
+		E722C0862AB73CF800C65111 /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
+		E722C0882AB73D2000C65111 /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		E722C08A2AB73D3D00C65111 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		E722C08E2AB73E1E00C65111 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		E722C0912AB744CB00C65111 /* VideoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItem.swift; sourceTree = "<group>"; };
+		E722C0942AB7450300C65111 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		E77597A92AAFBBE10006EFC8 /* RolexShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RolexShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77597AC2AAFBBE10006EFC8 /* RolexShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexShopApp.swift; sourceTree = "<group>"; };
+		E77597AE2AAFBBE10006EFC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E77597B02AAFBBE20006EFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E77597B32AAFBBE20006EFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E77597B92AAFBBE20006EFC8 /* RolexShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolexShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77597BD2AAFBBE20006EFC8 /* RolexShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexShopTests.swift; sourceTree = "<group>"; };
+		E77597C32AAFBBE20006EFC8 /* RolexShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolexShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E77597C72AAFBBE20006EFC8 /* RolexShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexShopUITests.swift; sourceTree = "<group>"; };
+		E77597C92AAFBBE20006EFC8 /* RolexShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E77597D72AAFBC140006EFC8 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		E77597DA2AAFC2A10006EFC8 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		E77597DF2AAFC3960006EFC8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		E77597E72AAFCA300006EFC8 /* animation_lmfg64c5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_lmfg64c5.json; sourceTree = "<group>"; };
+		E77597E92AAFCC2D0006EFC8 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E77597A62AAFBBE10006EFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77597DE2AAFC3540006EFC8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597B62AAFBBE20006EFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597C02AAFBBE20006EFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E717F2862AB133C0006EA455 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E717F2872AB133F5006EA455 /* Product.swift */,
+				E722C0412AB47C4700C65111 /* Video.swift */,
+				E722C0632AB72FA400C65111 /* PaymentProvider.swift */,
+				E722C08E2AB73E1E00C65111 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E717F2912AB138A5006EA455 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E722C05B2AB72D0200C65111 /* ProductShapes */,
+				E77597E92AAFCC2D0006EFC8 /* ProductView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		E717F2922AB138D1006EA455 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				E77597DF2AAFC3960006EFC8 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		E717F2932AB138E3006EA455 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				E77597D72AAFBC140006EFC8 /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		E717F2942AB138F5006EA455 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0732AB739F700C65111 /* DetailsShapes */,
+				E717F28B2AB1345B006EA455 /* DetailView.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		E717F2952AB13907006EA455 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				E717F28F2AB134B7006EA455 /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		E717F2962AB13941006EA455 /* LottieUIViewRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				E77597DA2AAFC2A10006EFC8 /* LottieView.swift */,
+			);
+			path = LottieUIViewRepresentable;
+			sourceTree = "<group>";
+		};
+		E722C03B2AB379A500C65111 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				E722C06A2AB733C200C65111 /* PaymentShapes */,
+				E722C05E2AB72E8500C65111 /* PaymentButtons */,
+				E722C04C2AB4883100C65111 /* PaymentCards */,
+				E722C03C2AB379BB00C65111 /* PaymentView.swift */,
+				E722C03F2AB3D63900C65111 /* PaymentMethodView.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		E722C03E2AB3D0F900C65111 /* SeeAllView */ = {
+			isa = PBXGroup;
+			children = (
+				E717F2972AB1C9E7006EA455 /* SeeAllView.swift */,
+			);
+			path = SeeAllView;
+			sourceTree = "<group>";
+		};
+		E722C0432AB47C6C00C65111 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0932AB744F000C65111 /* VideoList */,
+				E722C0902AB744A700C65111 /* VideoListItem */,
+				E722C0442AB47C8200C65111 /* VideoPlayerView.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		E722C0462AB484EE00C65111 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0472AB4850000C65111 /* VideoPlayer.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		E722C0492AB485AF00C65111 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E722C08D2AB73DED00C65111 /* Bundle */,
+				E717F2962AB13941006EA455 /* LottieUIViewRepresentable */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E722C04C2AB4883100C65111 /* PaymentCards */ = {
+			isa = PBXGroup;
+			children = (
+				E722C04D2AB4885B00C65111 /* PaymentCard1View.swift */,
+				E722C04F2AB488A200C65111 /* PaymentCard2View.swift */,
+				E722C0512AB488CB00C65111 /* PaymentCard3View.swift */,
+				E722C0682AB7302D00C65111 /* PaymentCardDetailView.swift */,
+			);
+			path = PaymentCards;
+			sourceTree = "<group>";
+		};
+		E722C0532AB4893500C65111 /* Bonität */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0542AB4894800C65111 /* BonitätView.swift */,
+				E722C0562AB4897500C65111 /* BonitätsInfoView.swift */,
+			);
+			name = "Bonität";
+			path = "Bonität";
+			sourceTree = "<group>";
+		};
+		E722C0582AB67A2A00C65111 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0592AB67A4000C65111 /* ServerView.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		E722C05B2AB72D0200C65111 /* ProductShapes */ = {
+			isa = PBXGroup;
+			children = (
+				E717F2892AB13417006EA455 /* ProductBodyView.swift */,
+				E717F2842AB132CF006EA455 /* ProductHeaderView.swift */,
+				E717F28D2AB1348A006EA455 /* ProductFooterTitleView.swift */,
+				E722C05C2AB72D6A00C65111 /* ProductFooterView.swift */,
+				E722C07A2AB73BE200C65111 /* CareerView.swift */,
+				E722C07C2AB73C1C00C65111 /* WhyWorkWithUsView.swift */,
+				E722C07E2AB73C5000C65111 /* ImprintView.swift */,
+				E722C0802AB73C7600C65111 /* LegalInfoView.swift */,
+				E722C0822AB73CA100C65111 /* ContactView.swift */,
+				E722C0842AB73CD400C65111 /* JobOpportunitiesView.swift */,
+				E722C0862AB73CF800C65111 /* ContactFormView.swift */,
+				E722C0882AB73D2000C65111 /* ContactInfoView.swift */,
+				E722C08A2AB73D3D00C65111 /* PrivacyPolicyView.swift */,
+			);
+			path = ProductShapes;
+			sourceTree = "<group>";
+		};
+		E722C05E2AB72E8500C65111 /* PaymentButtons */ = {
+			isa = PBXGroup;
+			children = (
+				E722C05F2AB72EA800C65111 /* PaymentButton.swift */,
+				E722C0612AB72ED400C65111 /* TrashButton.swift */,
+			);
+			path = PaymentButtons;
+			sourceTree = "<group>";
+		};
+		E722C0652AB72FD600C65111 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0662AB72FEB00C65111 /* PaymentCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E722C06A2AB733C200C65111 /* PaymentShapes */ = {
+			isa = PBXGroup;
+			children = (
+				E722C06B2AB733DC00C65111 /* PaymentBodyView.swift */,
+				E722C06D2AB7341800C65111 /* PaymentBodyDetailsView.swift */,
+				E722C06F2AB7344A00C65111 /* PaymentBodyDetails2View.swift */,
+				E722C0712AB7348C00C65111 /* CheckboxWithText.swift */,
+			);
+			path = PaymentShapes;
+			sourceTree = "<group>";
+		};
+		E722C0732AB739F700C65111 /* DetailsShapes */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0742AB73A1700C65111 /* DetailBodyView.swift */,
+				E722C0762AB73A6B00C65111 /* DetailHeaderView.swift */,
+				E722C0782AB73A9600C65111 /* DetailFooterView.swift */,
+			);
+			path = DetailsShapes;
+			sourceTree = "<group>";
+		};
+		E722C08C2AB73D9300C65111 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				E77597AE2AAFBBE10006EFC8 /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		E722C08D2AB73DED00C65111 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				E722C04A2AB485BD00C65111 /* Bundle.swift */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
+		E722C0902AB744A700C65111 /* VideoListItem */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0912AB744CB00C65111 /* VideoListItem.swift */,
+			);
+			path = VideoListItem;
+			sourceTree = "<group>";
+		};
+		E722C0932AB744F000C65111 /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0942AB7450300C65111 /* VideoListView.swift */,
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
+		E77597A02AAFBBE10006EFC8 = {
+			isa = PBXGroup;
+			children = (
+				E77597AB2AAFBBE10006EFC8 /* RolexShop */,
+				E77597BC2AAFBBE20006EFC8 /* RolexShopTests */,
+				E77597C62AAFBBE20006EFC8 /* RolexShopUITests */,
+				E77597AA2AAFBBE10006EFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E77597AA2AAFBBE10006EFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77597A92AAFBBE10006EFC8 /* RolexShop.app */,
+				E77597B92AAFBBE20006EFC8 /* RolexShopTests.xctest */,
+				E77597C32AAFBBE20006EFC8 /* RolexShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E77597AB2AAFBBE10006EFC8 /* RolexShop */ = {
+			isa = PBXGroup;
+			children = (
+				E722C0652AB72FD600C65111 /* ViewModel */,
+				E722C0492AB485AF00C65111 /* Extensions */,
+				E722C0462AB484EE00C65111 /* VideoPlayer */,
+				E717F2862AB133C0006EA455 /* Model */,
+				E77597D92AAFC28E0006EFC8 /* Animations */,
+				E77597D62AAFBBF60006EFC8 /* Views */,
+				E77597AC2AAFBBE10006EFC8 /* RolexShopApp.swift */,
+				E77597B02AAFBBE20006EFC8 /* Assets.xcassets */,
+				E77597B22AAFBBE20006EFC8 /* Preview Content */,
+			);
+			path = RolexShop;
+			sourceTree = "<group>";
+		};
+		E77597B22AAFBBE20006EFC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E77597B32AAFBBE20006EFC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E77597BC2AAFBBE20006EFC8 /* RolexShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				E77597BD2AAFBBE20006EFC8 /* RolexShopTests.swift */,
+			);
+			path = RolexShopTests;
+			sourceTree = "<group>";
+		};
+		E77597C62AAFBBE20006EFC8 /* RolexShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E77597C72AAFBBE20006EFC8 /* RolexShopUITests.swift */,
+				E77597C92AAFBBE20006EFC8 /* RolexShopUITestsLaunchTests.swift */,
+			);
+			path = RolexShopUITests;
+			sourceTree = "<group>";
+		};
+		E77597D62AAFBBF60006EFC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E722C08C2AB73D9300C65111 /* ContentView */,
+				E722C0582AB67A2A00C65111 /* Server */,
+				E722C0532AB4893500C65111 /* Bonität */,
+				E722C0432AB47C6C00C65111 /* Videos */,
+				E722C03E2AB3D0F900C65111 /* SeeAllView */,
+				E722C03B2AB379A500C65111 /* Payment */,
+				E717F2952AB13907006EA455 /* Favorites */,
+				E717F2942AB138F5006EA455 /* Details */,
+				E717F2932AB138E3006EA455 /* Start */,
+				E717F2922AB138D1006EA455 /* Splash */,
+				E717F2912AB138A5006EA455 /* Products */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E77597D92AAFC28E0006EFC8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				E77597E72AAFCA300006EFC8 /* animation_lmfg64c5.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E77597A82AAFBBE10006EFC8 /* RolexShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77597CD2AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShop" */;
+			buildPhases = (
+				E77597A52AAFBBE10006EFC8 /* Sources */,
+				E77597A62AAFBBE10006EFC8 /* Frameworks */,
+				E77597A72AAFBBE10006EFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RolexShop;
+			packageProductDependencies = (
+				E77597DD2AAFC3540006EFC8 /* Lottie */,
+			);
+			productName = RolexShop;
+			productReference = E77597A92AAFBBE10006EFC8 /* RolexShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E77597B82AAFBBE20006EFC8 /* RolexShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77597D02AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShopTests" */;
+			buildPhases = (
+				E77597B52AAFBBE20006EFC8 /* Sources */,
+				E77597B62AAFBBE20006EFC8 /* Frameworks */,
+				E77597B72AAFBBE20006EFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77597BB2AAFBBE20006EFC8 /* PBXTargetDependency */,
+			);
+			name = RolexShopTests;
+			productName = RolexShopTests;
+			productReference = E77597B92AAFBBE20006EFC8 /* RolexShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E77597C22AAFBBE20006EFC8 /* RolexShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E77597D32AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShopUITests" */;
+			buildPhases = (
+				E77597BF2AAFBBE20006EFC8 /* Sources */,
+				E77597C02AAFBBE20006EFC8 /* Frameworks */,
+				E77597C12AAFBBE20006EFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E77597C52AAFBBE20006EFC8 /* PBXTargetDependency */,
+			);
+			name = RolexShopUITests;
+			productName = RolexShopUITests;
+			productReference = E77597C32AAFBBE20006EFC8 /* RolexShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E77597A12AAFBBE10006EFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E77597A82AAFBBE10006EFC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E77597B82AAFBBE20006EFC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E77597A82AAFBBE10006EFC8;
+					};
+					E77597C22AAFBBE20006EFC8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E77597A82AAFBBE10006EFC8;
+					};
+				};
+			};
+			buildConfigurationList = E77597A42AAFBBE10006EFC8 /* Build configuration list for PBXProject "RolexShop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E77597A02AAFBBE10006EFC8;
+			packageReferences = (
+				E77597DC2AAFC3540006EFC8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = E77597AA2AAFBBE10006EFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E77597A82AAFBBE10006EFC8 /* RolexShop */,
+				E77597B82AAFBBE20006EFC8 /* RolexShopTests */,
+				E77597C22AAFBBE20006EFC8 /* RolexShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E77597A72AAFBBE10006EFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77597B42AAFBBE20006EFC8 /* Preview Assets.xcassets in Resources */,
+				E77597E82AAFCA300006EFC8 /* animation_lmfg64c5.json in Resources */,
+				E77597B12AAFBBE20006EFC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597B72AAFBBE20006EFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597C12AAFBBE20006EFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E77597A52AAFBBE10006EFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E722C0602AB72EA800C65111 /* PaymentButton.swift in Sources */,
+				E722C08B2AB73D3D00C65111 /* PrivacyPolicyView.swift in Sources */,
+				E722C0892AB73D2000C65111 /* ContactInfoView.swift in Sources */,
+				E77597D82AAFBC140006EFC8 /* StartView.swift in Sources */,
+				E722C0622AB72ED400C65111 /* TrashButton.swift in Sources */,
+				E722C0522AB488CB00C65111 /* PaymentCard3View.swift in Sources */,
+				E722C0852AB73CD400C65111 /* JobOpportunitiesView.swift in Sources */,
+				E722C07D2AB73C1C00C65111 /* WhyWorkWithUsView.swift in Sources */,
+				E717F2882AB133F5006EA455 /* Product.swift in Sources */,
+				E722C0642AB72FA400C65111 /* PaymentProvider.swift in Sources */,
+				E717F2982AB1C9E7006EA455 /* SeeAllView.swift in Sources */,
+				E722C0872AB73CF800C65111 /* ContactFormView.swift in Sources */,
+				E722C04B2AB485BD00C65111 /* Bundle.swift in Sources */,
+				E722C0572AB4897500C65111 /* BonitätsInfoView.swift in Sources */,
+				E722C0672AB72FEB00C65111 /* PaymentCardViewModel.swift in Sources */,
+				E722C06E2AB7341800C65111 /* PaymentBodyDetailsView.swift in Sources */,
+				E722C0772AB73A6B00C65111 /* DetailHeaderView.swift in Sources */,
+				E722C0752AB73A1700C65111 /* DetailBodyView.swift in Sources */,
+				E722C03D2AB379BB00C65111 /* PaymentView.swift in Sources */,
+				E722C08F2AB73E1E00C65111 /* VideoModel.swift in Sources */,
+				E722C0952AB7450300C65111 /* VideoListView.swift in Sources */,
+				E77597AF2AAFBBE10006EFC8 /* ContentView.swift in Sources */,
+				E722C04E2AB4885B00C65111 /* PaymentCard1View.swift in Sources */,
+				E717F28C2AB1345B006EA455 /* DetailView.swift in Sources */,
+				E77597E02AAFC3960006EFC8 /* SplashView.swift in Sources */,
+				E722C0722AB7348C00C65111 /* CheckboxWithText.swift in Sources */,
+				E722C0812AB73C7600C65111 /* LegalInfoView.swift in Sources */,
+				E722C05D2AB72D6A00C65111 /* ProductFooterView.swift in Sources */,
+				E722C0402AB3D63900C65111 /* PaymentMethodView.swift in Sources */,
+				E722C0502AB488A200C65111 /* PaymentCard2View.swift in Sources */,
+				E722C0482AB4850000C65111 /* VideoPlayer.swift in Sources */,
+				E77597AD2AAFBBE10006EFC8 /* RolexShopApp.swift in Sources */,
+				E77597EA2AAFCC2D0006EFC8 /* ProductView.swift in Sources */,
+				E722C07F2AB73C5000C65111 /* ImprintView.swift in Sources */,
+				E722C0922AB744CB00C65111 /* VideoListItem.swift in Sources */,
+				E717F28E2AB1348A006EA455 /* ProductFooterTitleView.swift in Sources */,
+				E722C05A2AB67A4000C65111 /* ServerView.swift in Sources */,
+				E722C06C2AB733DC00C65111 /* PaymentBodyView.swift in Sources */,
+				E717F2902AB134B7006EA455 /* FavoritesView.swift in Sources */,
+				E722C0552AB4894800C65111 /* BonitätView.swift in Sources */,
+				E722C0702AB7344A00C65111 /* PaymentBodyDetails2View.swift in Sources */,
+				E717F28A2AB13417006EA455 /* ProductBodyView.swift in Sources */,
+				E722C0792AB73A9600C65111 /* DetailFooterView.swift in Sources */,
+				E722C0452AB47C8200C65111 /* VideoPlayerView.swift in Sources */,
+				E722C0422AB47C4700C65111 /* Video.swift in Sources */,
+				E722C0832AB73CA100C65111 /* ContactView.swift in Sources */,
+				E77597DB2AAFC2A10006EFC8 /* LottieView.swift in Sources */,
+				E717F2852AB132CF006EA455 /* ProductHeaderView.swift in Sources */,
+				E722C07B2AB73BE200C65111 /* CareerView.swift in Sources */,
+				E722C0692AB7302D00C65111 /* PaymentCardDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597B52AAFBBE20006EFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77597BE2AAFBBE20006EFC8 /* RolexShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E77597BF2AAFBBE20006EFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77597C82AAFBBE20006EFC8 /* RolexShopUITests.swift in Sources */,
+				E77597CA2AAFBBE20006EFC8 /* RolexShopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E77597BB2AAFBBE20006EFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77597A82AAFBBE10006EFC8 /* RolexShop */;
+			targetProxy = E77597BA2AAFBBE20006EFC8 /* PBXContainerItemProxy */;
+		};
+		E77597C52AAFBBE20006EFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E77597A82AAFBBE10006EFC8 /* RolexShop */;
+			targetProxy = E77597C42AAFBBE20006EFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E77597CB2AAFBBE20006EFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E77597CC2AAFBBE20006EFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E77597CE2AAFBBE20006EFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RolexShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E77597CF2AAFBBE20006EFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RolexShop/Preview Content\"";
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E77597D12AAFBBE20006EFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolexShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RolexShop";
+			};
+			name = Debug;
+		};
+		E77597D22AAFBBE20006EFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RolexShop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RolexShop";
+			};
+			name = Release;
+		};
+		E77597D42AAFBBE20006EFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RolexShop;
+			};
+			name = Debug;
+		};
+		E77597D52AAFBBE20006EFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55C3RLSR2Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatApp.www.https.RolexShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RolexShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E77597A42AAFBBE10006EFC8 /* Build configuration list for PBXProject "RolexShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77597CB2AAFBBE20006EFC8 /* Debug */,
+				E77597CC2AAFBBE20006EFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77597CD2AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77597CE2AAFBBE20006EFC8 /* Debug */,
+				E77597CF2AAFBBE20006EFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77597D02AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77597D12AAFBBE20006EFC8 /* Debug */,
+				E77597D22AAFBBE20006EFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E77597D32AAFBBE20006EFC8 /* Build configuration list for PBXNativeTarget "RolexShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77597D42AAFBBE20006EFC8 /* Debug */,
+				E77597D52AAFBBE20006EFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E77597DC2AAFC3540006EFC8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E77597DD2AAFC3540006EFC8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E77597DC2AAFC3540006EFC8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E77597A12AAFBBE10006EFC8 /* Project object */;
+}
